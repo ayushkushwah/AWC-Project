@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+
+	<class name="com.hibernate01.dataStructure" table="user_info">
+			
+		<id name="staff_id" column="id">
+			<generator class="assigned"/>
+		</id>	
+		
+		<property name="staff_name" column="name"/>
+		<property name="staff_dept" column="dept"/>
+		<property name="staff_email" column="email"/>
+		<property name="staff_mob" column="mob"/>
+		<property name="staff_pass" column="pass"/>		
+		
+	</class>
+
+</hibernate-mapping>
